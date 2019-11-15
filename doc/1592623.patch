@@ -1,0 +1,21 @@
+# HG changeset patch
+# User lan <lana.sanyoura@gmail.com>
+# Date 1573080517 21600
+#      Wed Nov 06 16:48:37 2019 -0600
+# Branch gfb/BasicTableLayoutStrategy
+# Node ID 6e313493de4ed7f4b8b55d57a911b596565abd20
+# Parent  eba9b9f96abca90a38545e532afd154f19ff733f
+Fix unused line in layout/tables/BasicTableLayoutStrategy.cpp
+
+diff --git a/layout/tables/BasicTableLayoutStrategy.cpp b/layout/tables/BasicTableLayoutStrategy.cpp
+--- a/layout/tables/BasicTableLayoutStrategy.cpp
++++ b/layout/tables/BasicTableLayoutStrategy.cpp
+@@ -24,8 +24,6 @@
+ using namespace mozilla;
+ using namespace mozilla::layout;
+ 
+-namespace css = mozilla::css;
+-
+ #undef DEBUG_TABLE_STRATEGY
+ 
+ BasicTableLayoutStrategy::BasicTableLayoutStrategy(nsTableFrame* aTableFrame)
